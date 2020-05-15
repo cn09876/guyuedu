@@ -1,0 +1,5 @@
+pyaudio库装不上的解决方法
+https://www.cnblogs.com/liming19680104/p/10636530.html
+
+在这里下载pyaudio的包
+https://www.lfd.uci.edu/~gohlke/pythonlibs/
