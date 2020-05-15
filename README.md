@@ -4,7 +4,7 @@
 所有视频可关注以下平台：
 
 + 微信【华纳网】公众号
-+ ![华纳网](asserts/qr_warner.jpg)
++ ![华纳网](![add image](https://github.com/cn09876//raw/master/asserts/qr_warner.jpg))
 + B站谷雨课堂(https://space.bilibili.com/478000311)
 
 
