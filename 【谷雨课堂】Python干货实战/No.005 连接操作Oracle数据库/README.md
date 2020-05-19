@@ -1,4 +1,4 @@
-## Oracle数据库在各大行业占用不可替代的作用，
+## Oracle数据库在各大行业拥用不可替代的作用，
 ## 那么Python如何使用Oracle数据库呢？
 ## 谷雨老师干货实战走起~
 
@@ -17,3 +17,4 @@ all_data=cursor.fetchall()
 
 #显示返回的数据
 print(all_data)
+ 
