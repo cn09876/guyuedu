@@ -1,0 +1,101 @@
+                                                                             %-------------------------AAAAA---------------------%                        ----AAAAAAAAAAA--%       
+                                                                       %-A-------------AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA------------%                  ----AAAAAAAAAAAAA---      
+                                                                   -AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA---------%             %---AAAAAAAAAAAAAAAA-%     
+                                                              %-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA--------%         ----AAAAAAAAAAAAAAA-       
+                                                           -AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA--------     %---AAAAAAAAAAAAAAA         
+                                                       %AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-------- %---AAAAAAAAAAAAAA%          
+                                                    %AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA---------AAAAAAAAAAAAA-            
+                                                  -AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-----AAAAAAAAA-------AAAAAAAAAAA         %---%
+                                               -AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA--------AAAAAA-------AAAAAAA%      -AA---   
+                                             -AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-----------AAAA-------AAA-   %-AAAA--%     
+                                           AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA---AAAAAAAAAAAAAAAA-A----------AAA-------%---AAAAA--%       
+                                         -AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA--AAAAAAAAAAAAAA-AAAAA----------------AAAAAA--          
+                                       %AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA--AAAAAAAAAAAA-AAAAAAA--------------AAA-%            
+                                      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA--AAAAAAAAAA-AAAAAAAAAAA---------%-%              
+                                    %AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA--AAAAAAAA-AAAAAAAAAAAAAA------%               
+                                   -AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA--AAAAAA-AAAAAAAAAAAAAAAA-----              
+                                  -AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA--AAA--AAAAAAAAAAAAAAAA-----             
+      %-AAAAAAAAAAAAAAAAAA-%%    -AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA--A--AAAAAAAAAAAAAAAA-----            
+ -AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA--AAAAAAAAAAAAAAAAAA---A%           
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA---A           
+AAAAAA-%                  -AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA---A%          
+%                     %AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA----          
+                   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA----%         
+               %AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA---%         
+             -AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA----         
+           %AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA----         
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA---%        
+        -AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA---%        
+       AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA----        
+     %AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-AA--AAAAAAAAAAAAAAAAAAAAAAAAAAAA-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA----        
+    %AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA%-AA-%-AAAAAAAAAAAAAAAAAAAAAAAAAAAA%-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA---AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA----%        
+   %AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-%%-AA-%%-AAAAAAAAAAAAAAAAAAAAAAAAAAAA-%-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA--%-AAAAAAAAAAAAAAAAAAAA%%-AAAAAAAAAAAA----         
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-AAAAAAA-%%%%AA-%-%-AAAAAAAAAAAAAAAAAAAAAAAAAAAA-%%-AAAAAAAAAAAAAAAAAAAAAAA-AAAAAAAAA-%%%-AAAAAAAAAAA-AAAA-  %AAAAAAAAAA---%         
+  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA--AAAAAA-%%%%%AAA%%%%-AAAAAAAAAAAAAAAAAAAAAAAAAAAA-%%-AAAAAAAAAAAAAAAAAAAAAAAA%%AAAAAAAAAA-%%%%-AAAAAAA- -AAA%  %AAAAAAAA---          
+ -AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-%AAAAAA-%%%%%%AAA%%%%%-AAAAAAAAAAAAAAAAAAAAAAAAAAAA-%%%AAAAAAAAAAA--AAAAAAAAAAAA-%%--AAAAAAAA--%%%--AAAAAAAAAAAAAAAAAAAAA--%          
+ AAAAAAAAAAAAAAAAA--AAAAAAAAAAAAAAAAAAAAAAA-%%AAAAAA%%%%%-%-AA--%%%%-AAAAAAAAAAAAAAAAAAAAAAAAAAAA-%%%AAAAAAA--AAA%%-AAAAAAAAAAAA%%%%%%--AAAAAAAAAAAAAAAA%%%AA%  -AAAAA--           
+ AAAAAAAAAAAAAAAA- AAAAAAAAAAAAAAAAAAAAAAAA%%-AAAAAAAAAAAAA%AA-%-%%%-%AAAAAAAAAAAAAAAAAAAAAAAAAAAA-%-%AAAAAAA%%-AAA-%%--AAAAAAAAAA-%%%%%%-AAAA--AAAA%%AA-    AA   AAA--%           
+%AAAAAAAAAAAAAAA- %AAAAAAAAAAAAAAAAAAAAAAA--AAAAAA-%%-%%-AAAAAA-%-%-%-%-AAAAAAAAAAAAAAAAAAAAAAAAAAAA%%%AAAAAA-%%%-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA- % AAAA--            
+%AAAAAAAAAAAAAA-  -AAAAAAAAAAAAAAAAAAAAA-AA-%AAAAA-%-%%%%%%%-AAAAAA-%%-%%AAAAAAAAAAAAAAAAAAAAAAAAAAAA-%%AAAAAA-AAAAAAAAAAA-------AAAAAAA-%%%%-%%%%%%%%% %-AAAA- %AAA--- %%         
+%AAAAAAAAAAAAAA   -AAAAA-AA-AAAAAAAAAAA--AA-%AAAA-%-------AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-%-AAAAAA--%%%%-AAAA-%-%%-AAA----AAAA-----------%%    %AA%%AA---   %%        
+ AAAAAAAAAAAAA    -AAAAA AAA AAAAAAAAAA%%AA-%AAAAAAAAAAAAAAAAAAAAAAAAAAAA---AAAAAAAAAAAAAAAAAAAAAAAAAAA-%AAAAA-%%%--%%%%-AAA-AAA-%%%--A-- AA%      %-AAAA%    AAAAAA-     %        
+ AAAAAAAAAAAA     %AAAAA -AA% AAAAAAAA-%%-AAAAAAAAA---%%%--AAAAAAAAA--%AAAA-%%AAA-%AAAAAAAAAAAAAAAAAAAAAAAAAAA-%%%%%%-%%--AAAAA--AA-       --           -AA%  AAAAAAA%--% %%       
+ -AAAAAAAAAA%      AAAA-  AA- %AAAAAAA-%-%AAA-AAA%-%-AAA-     %AAAA-AAAAA--AAA-%AAA-%-AAAAAAAAAAAAAAAAAAAAAAAA-%%--%%%-AAAA--AAAA%          %            -A%  AAAAA--%  - %%       
+ %AAAAAAAAA-       -AAA-  -AA  -AAAAAAA%%-AAAAAAA-AAA%       AA%%AA-AA--%-AA%AAA--AA-%%%-AAAAAAAAAAAAAAAAAAAAA-%%%%%AAAA--AAA- --  %        %            -%   AAA-%%-%    %%       
+  AAAAAAAAA         AAAA   AA%  -AAAAAAA%AA-%AAAAAA%       %-AAA AAA%       AA%-AAA-AA-%-%-AAAAAAAAAAAAAAAAAAA-%--AAA-%--AAAAA- %%         -%                %--%--%-     %%       
+  %AAAAAAA-         -AAA   %AA   AAAAAAAAA-%%-%-AA         AA-AA%%A-         %AA%%-A%-AA%-AAAAAAAAAAAAAAAAAAAA-%%---%--  -AAAAA- %A-%    --%                ----%-%--     %%       
+   AAAAAAA           AAA    -A- -%-AAAAAAA-%%-%AA-         AA-AAA A%            %-%%%-%%--AAAAAAAAAAAAAAAAAAAAAA-%%%--    -AAAAAA%A%%%%%%%%                ----------    %%        
+    AAAAA-           %AA%    %AA-%--AAAAAAA-%%%-A-         -AA-AA- A              ---%-%-%%%-%-%%%%%%%%%%%%-----A--%%-%     %%%%%%%%%%%%         %%%      -----%-%--    %%         
+    -AAAA%            -A-      AA-%-AAAAAAAAA%%%--          AAA-AA -A%       %A    -%%%%%%%%-%%%%%%%%%-%%%%--%-%%%%%--%%-AA-%                %-A-        -%---%%--%    -           
+     AAAA              AA       -AA%%%%AAAAAAA-%-%-%         AAAAAA-%-AAAA-AA-    %%-%-%%%%--%%%%-%%-%%%%%%---%-%%%%%%%%%%%%%--AAAAAAAAAA-%            %--%------    -             
+     %AA-              %A%      %--A-%----A-AAA-%%%%-%        %--%%---%%%%--    %--%%%-%-%%---%%-%%-%%-%%%%%%--%%%%%%%--%%%-%-%%%-%%%%%-%             %-%---%--%   %-              
+      AA%               --       -%%---A--AA---AA%-%%%--%        %%--%%%%     %-%%-%%-%-%%--%%%%%---%%%-%%%-%%--%%--%%%%%%%%%%%%%%%%%%-%             %-%--%--%    -                
+      %A                 -       --%-%%-A-AA----AA%--%%%%--%              %---%%%%%%-%%%---%%-%%--A-----%-%%%%%---%-%%%%%%%%%%-%%%%%--%             %------%    %%                 
+       A                          -%-%-%-A-AAAAAAAA-%-%%%%%%--%%%%%%%%%%-%%%%%-%%%--%%%%-%-%%%-%------A-%-%%%%-%%%----%--%%%%%%%%%%%%%             %--%       %%                   
+       -                           --%%-%--A-AA----A-%-%%%%-%-%%-%%--%%%%-%%%-%%%--%%%--%-%%-%%-%%----%-%-%%%-%-%%%%----%%%%--%--%%--          %%%-%        %%                     
+                                     ---%%--A-AAA-A--A-%%%%%%%%%%%%%%%%-%%%%-%%%%-%%--%%%%%%%%%%%%%%%%%%%-%-%%%%-%--%%-%--------------%%%%%      -        %%                       
+                                       %--%-%-A--AA---A-%-%-%%%-%%%%%%%%%%%%-%%%----%%%%%%%%%%%%%%%%%%%-%%%%%%%%-%%%-%%%-%%%%%%%%%-%           -%     %%%                          
+                                         %-%-%%%--AAA--A-%%%%--%-%%%%%%%%%%%----%%-%%-%-%%%%%%%%%%%%%%%%%%%%%%%%-%%%----%%%%%%%%%%%          %% %%-%                               
+                                            --%-%-%%---AAA-%%-%%%%----------%%%%%%-%%%%%%%%%%%%%%%%-%%%%%----------%%%%%%%%%%%--%          %-%                                     
+                                              ---%%%-%-%%%------%%%%%%%%%%%%%%%%-%%%%%%%%%%%-----------%%%%%--%%%%%%%%%%%%%%%-%%         -AAA--%                                   
+                                                 --%%-%%%%-%--%%%%-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-%            %AAA--                                  
+                                                    %----%%-%----%%-%%-%%%%%%%%%%%%%%%%%%%%--%%%%%%%%%%%%%%%%%%%%%%%%%%%%-%-%                  %AA-                                
+                                                                  %%-%%-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%--%%                        %                              
+                                                                      %%--%%%%%%%%%%%%%%%-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-%                                                         
+                                                                           %%-%%-%%-%%-%%%%%%%%%%%%%%%%%%%%%-%%%%--%%-%                                                            
+                                                                                %%-%%%%%%%-%%%%%%%%%%%%%-%%%%%%%-%--%  %-                                                          
+                                                                                     ---%%%%-%%-%%%%%%%%%--%%-%%-% %-A-%-AAA%                                                      
+                                                                                   %AAA%%A---%%%%%%%%%%%%%%-%%%%-A-%%--A- %-AA                                                     
+                                                                                 %AAAA     %-AAAA-----%%%%--AA--%%--%      %--AA                                                   
+                                                                               %AAAA%          %AA--A-AAA---%---%          %----A-                                                 
+                                                                             %AAAAA-                %-AA-%%%               -------A-                                               
+                                                                        %-AAAAAAAAAA-------%%%%   -A-----   ------------------------A%                                             
+                                                               %-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA- %-   %% %% AAAAAAA-----------------------A-%                                      
+                                                       %-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA%AAAAAAAA%-AAAAA---------------------A---------A-%                                
+                                                 %AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA---------A------------A----------------%                          
+                                                -AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-------A%-------------A------------------A-%                     
+                                               -AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA- -------------A-----------------------A-                 
+                                              AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA---------------A------------------------A%               
+                                             AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA%%-AAAAAA--%%%AAAAAAAAAAAAAA---------------A-------------------------               
+                                            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-%   --%%%% %%  %%%---AAAAAAAA---------------A-------------------------A              
+                                           AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-%%%%%-%%%     %%     %%      %%%%%    %-A--------------A--------------------------             
+                                         %AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-     %%-      %%     %%     -         ---AA-------------A-------------------A------            
+                                        %AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA       %-     %%     %%   %-          ---AA-------------A-------------------A-----A%           
+                                       %AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA         -%   %%     %%  -%           ----A---------------------------------A-------           
+                                      %AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA          %-  %%     %% -        %    -----AA-----AAAAA------------------------------          
+                                     %AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA           %  %%     %-%       %-     A------AAAAAAAAAA--------------------A----------         
+                                     AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA              %%     %%      %-       --------------AA---------------------A---------A%        
+                                    -AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA              %%     %%     -        %-----------------A------------------A-----A------        
+                                    -AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA%             %%     %    -          %-----------------A------------------A---AAA-------       
+                                    %AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA%             %%     %  -            -----------------A-------------------A--AAAA--------      
+                                     AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA             %%     %%%           %A----------------A--------------------A-AAAAA-------A%     
+                                      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA            %%     %            ---------------------------------------A-AAAAAA--------A     
+                                      %AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA%          %%     -           A----------------A----------------------AAAAAAAA----------    
+                                     AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-         %%     -         %-----------------A-----------------------AAAAAAA---------A%    
+                                    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA        %%     -        -----------------AA-----------------------AAAAAAAA---------      
+                                   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA%      %%     -      %A----------------A-------------------------AAAAAAAA--------       
+                                  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     %      -     ---------------------------------------------AAAAAAAA------AA-      
+                                 -AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA%   %%     -   -A----------------A---------------------------AAAAAAAA-----AAAAA%     
+                                 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA  %%     -  -A----------------A---------------------------AAAAAAAA-----AAAAAAA%    
+                                %AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA%%%     %%AAA--------------A-----------------------------AAAAAAA----AAAAAAAAAA    
+                                 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA      AAAAA-------------A------------------------------AAAAA----AAAAAAAAAAAA-   
