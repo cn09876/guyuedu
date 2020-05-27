@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">   
+    <script src="./jquery-3.2.1.min.js"></script>
+    <script src="./jquery.facedetection.min.js"></script> 
+<style>
+.face {
+    position: absolute;
+    border: 2px solid #00ff00;
+}
+</style>    
+</head>
+<body margin=0>
+<div style="height:50px;width:100%;text-align:center;font-size:25px;margin:20px;">H5人脸识别</div>
+<video  id="video" autoplay style="width: 100%;height: 100%"></video>
+<canvas id="canvas" style="width:0px;height:0px;"></canvas>
+<script src="./guyu_face.js"></script> 
+<script>
+$(function () {
+    faceDetection();
+});    
+</script>
+</body>
+</html>
+
