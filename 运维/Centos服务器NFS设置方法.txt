@@ -1,0 +1,60 @@
+服务端配置
+ 
+1. 安装nfs-utils和rpcbind 
+yum install nfs-utils rpcbind
+ 
+2.设置开机启动服务
+chkconfig nfs on
+chkconfig rpcbind on
+  
+3.启动服务
+service rpcbind start
+service nfs start
+ 
+4.创建共享目录
+mkdir -p /export/primary
+mkdir -p /export/secondary
+  
+5.编辑/etc/exports文件添加如下内容
+ 
+vim /etc/exports
+/export *(rw,async,no_root_squash,no_subtree_check)
+  
+6.刷新配置立即生效 
+exportfs -a
+
+客户端配置 
+1. 安装nfs-utils和rpcbind 
+yum install nfs-utils rpcbind
+  
+2.设置开机启动服务 
+chkconfig nfs on
+chkconfig rpcbind on
+ 
+3.启动服务 
+service rpcbind start
+service nfs start
+ 
+ 4.创建挂载点
+ mkdir -p /mnt/primary
+ mkdir -p /mnt/secondary
+ 
+
+5.挂载目录
+mount -t nfs server_ip:/export/primary /mnt/primary
+mount -t nfs server_ip:/export/secondary /mnt/secondary
+ 
+ 
+6.查看挂载的目录
+df -h
+ 
+ 
+7.卸载挂载的目录
+umount /mnt/primary
+umount /mnt/secondary
+ 
+ 
+8.编辑/etc/fstab，?机自动挂载
+vim /etc/fstab
+server_ip:/export/primary/mnt/primary nfs rw,tcp,intr 0 1
+server_ip:/export/secondary/mnt/secondary nfs rw,tcp,intr 0 1

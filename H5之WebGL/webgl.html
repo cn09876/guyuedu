@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title></title>
+<style>
+body{
+margin: 0;
+padding: 0;
+}
+</style>
+</head>
+<body>
+<canvas id="cvs" width="800" height="800"></canvas>
+<div></div>
+<script id="vertex" type="text/v-shader">
+precision highp float;
+attribute vec3 position;
+uniform mat4 mat;
+varying vec4 color;
+void main()
+{
+gl_Position=mat*vec4(position,1.0);
+color=vec4(gl_Position.x,gl_Position.y,gl_Position.z,0.8);
+}
+</script>
+<script id="fragment" type="text/f-shader">
+#ifdef GL_ES
+precision mediump float;
+#endif
+varying vec4 color;
+void main(){
+gl_FragColor=color;
+}
+</script>
+<script type="text/javascript">
+(function(global){
+var cvs = document.getElementById("cvs");
+var gl = cvs.getContext("experimental-webgl");
+var vertex = gl.createShader(gl.VERTEX_SHADER);
+var fragment = gl.createShader(gl.FRAGMENT_SHADER);
+var paogram = gl.createProgram();
+gl.shaderSource(vertex,document.getElementById("vertex").text);
+gl.shaderSource(fragment,document.getElementById("fragment").text);
+gl.compileShader(vertex);
+gl.compileShader(fragment);
+gl.attachShader(paogram,vertex);
+gl.attachShader(paogram,fragment);
+gl.linkProgram(paogram);
+gl.useProgram(paogram);
+var drawY=function(rX,rY,r,m){
+var arr= new Array();
+var addAng=360/m;
+var angle=0;
+for(var i = 0;i<m;i++){
+arr.push(Math.sin(Math.PI/180*angle)*r,Math.cos(Math.PI/180*angle)*r,0);
+arr.push(0.0,0.0,0.0);
+angle=angle+addAng;
+arr.push(Math.sin(Math.PI/180*angle)*r,Math.cos(Math.PI/180*angle)*r,0);
+}
+return arr;
+}
+var ms = 90;
+data=drawY(0,0,0.5,ms);
+var positionIndex = gl.getAttribLocation(paogram,"position");
+var matIndex = gl.getUniformLocation(paogram,"mat");
+console.log(gl.getShaderInfoLog(vertex));
+var mM=[
+1,0,0,0,
+0,1,0,0,
+0,0,1,0,
+0,0,0,1
+];
+console.log(gl.getShaderInfoLog(fragment));
+global.rotateX=function (angle){
+    var c = Math.cos(Math.PI/180*angle);
+    var s = Math.sin(Math.PI/180*angle);
+    var mM1=mM[1],mM5=mM[5],mM9=mM[9];
+    mM[1] = c*mM[1] - s*mM[2];
+    mM[5] = c*mM[5] - s*mM[6];
+    mM[9] = c*mM[9] - s*mM[10];
+    mM[2]=s*mM1+c*mM[2];
+    mM[6]=s*mM5+c*mM[6];
+    mM[10]=s*mM9+c*mM[10];
+};
+global.rotateY=function (angle){
+    var c = Math.cos(Math.PI/180*angle);
+    var s = Math.sin(Math.PI/180*angle);
+    var mM0=mM[0],mM8=mM[8],mM4=mM[4];
+    mM[0] = c*mM[0] + s*mM[2];
+    mM[4] = c*mM[4] + s*mM[6];
+    mM[8] = c*mM[8] + s*mM[10];
+    mM[2] = c*mM[2]-s*mM0;
+    mM[6] = c*mM[6]-s*mM4;
+    mM[10] = c*mM[10]-s*mM8;
+};
+global.rotateZ=function (angle){
+    var c = Math.cos(Math.PI/180*angle);
+    var s = Math.sin(Math.PI/180*angle);
+    var mM0=mM[0],mM4=mM[4],mM8=mM[8];
+    mM[0] = c*mM[0]-s*mM[1];
+    mM[4] = c*mM[4]-s*mM[5];
+    mM[8] = c*mM[8]-s*mM[9];
+    mM[1]=s*mM0+c*mM[1];
+    mM[5]=s*mM4+c*mM[5];
+    mM[9]=s*mM8+c*mM[9];
+};
+global.moveX= function(distance){
+mM[0]=mM[0]+distance*mM[3];
+mM[4]=mM[4]+distance*mM[7];
+mM[8]=mM[8]+distance*mM[11];
+mM[12]=mM[12]+distance*mM[15];
+};
+global.moveY= function(distance){
+    mM[1]=distance*mM[3]+mM[1];
+    mM[5]=distance*mM[7]+mM[5];
+    mM[9]=distance*mM[11]+mM[9];
+    mM[13]=distance*mM[15]+mM[13];
+};
+
+global.moveZ= function(distance){
+    mM[2]=distance*mM[3]+mM[2];
+    mM[6]=distance*mM[7]+mM[6];
+    mM[10]=distance*mM[11]+mM[10];
+    mM[14]=distance*mM[15]+mM[14];
+};
+
+global.scaleFun=function(scale){
+    mM[0]=scale*mM[0];
+    mM[4]=scale*mM[4];
+    mM[8]=scale*mM[8];
+    mM[12]=scale*mM[12];
+    mM[1]=scale*mM[1];
+    mM[5]=scale*mM[5];
+    mM[9]=scale*mM[9];
+    mM[13]=scale*mM[13];
+    mM[2]=scale*mM[2];
+    mM[6]=scale*mM[6];
+    mM[10]=scale*mM[10];
+    mM[14]=scale*mM[14];
+};
+var buffer = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER,buffer);
+gl.bufferData(gl.ARRAY_BUFFER,new Float32Array(data),gl.STATIC_DRAW);
+gl.vertexAttribPointer(positionIndex,3,gl.FLOAT,false,0,0);
+gl.enableVertexAttribArray(positionIndex);
+var dis= 0.05;
+var angle=0.5;
+function fun()
+{
+    rotateX(angle);
+    rotateY(angle);
+    rotateZ(angle);
+    gl.uniformMatrix4fv(matIndex,false,new Float32Array(mM));
+    gl.clearColor(0.5, 0.5, 0.5, 1);
+    gl.clear(gl.COLOR_BUFFER_BIT);
+    gl.drawArrays(gl.TRIANGLES,0,ms*3);
+    requestAnimationFrame(fun);
+}
+fun();
+})(window);
+</script>
+</body>

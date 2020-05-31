@@ -1,0 +1,60 @@
+<script>
+var s_db_name="test3";
+var s_db_version=3;
+var request = window.indexedDB.open(s_db_name, s_db_version);
+
+//数据库版本有变化时
+request.onupgradeneeded = function (event) {
+    console.log("db version changed!");
+    var db = event.target.result;
+    console.log('create db tables');
+    var tbl_create = db.createObjectStore('users', {keyPath: 'id', autoIncrement: true});
+    tbl_create.createIndex('name', 'name', {unique: false});
+    var tbl_create=db.createObjectStore('items', {keyPath: 'id', autoIncrement: true});
+}
+
+//成功时
+request.onsuccess = function (event) {
+    console.log("db onsuccess");
+    var db = event.target.result;
+    var tbls=db.objectStoreNames;
+    console.log("tables in database");
+    console.log(tbls);
+    var transaction = db.transaction(['users'], 'readwrite');
+    var objectStore = transaction.objectStore('users');
+    var index = objectStore.index('name');
+    var rs1=index.getAll("a");
+    rs1.onsuccess=function(e){
+    console.log("index name=sunway");
+    console.log(e.target.result);
+}
+
+objectStore.delete(1);
+
+console.log('success add ');
+//objectStore.add({name: 'a', age: 10});
+//查询所有
+var ll = objectStore.openCursor();
+console.log(ll);
+ll.onsuccess=function(event){
+    // 同样使用游标遍历
+    var cursor = event.target.result;
+    if(cursor){
+        var row = cursor.value;
+        console.log(row);
+        // 遍历下一条数据
+        cursor.continue();
+    }else{
+        console.log("over");
+    }
+}
+ll.onerrot=function(){
+    alert(request.error+"occurred");
+}
+}
+
+request.onerror = function (e) {
+    console.log("db onerror");
+    console.log(e);
+};
+</script>
