@@ -1,0 +1,51 @@
+标题：
+【谷雨课堂】Python干货实战【009】读取Excel
+
+知识点：
+Python读取Excel文件
+
+
+内容：
+Excel文件是日常学习和工作中经常遇到的工具，
+Excel同时也做为各种系统之间的数据传输的载体，常常用于进行数据的导入和导出工作，
+那么Python自然也能读写Excel文件，
+本节就是用Python来读取一个标准的Excel文件
+读取Excel文件有很多可以使用的库，
+经过谷雨的实践，现在在用的是xlrd,xlwt这两个库，分别是读取和写入Excel文件
+Excel文件有两种格式，一种是xls扩展名，是早期的格式，还有一种是xlsx扩展名，较新的一种格式，
+这两种格式xlrd库都是兼容的
+
+1)
+导入函数库
+import xlrd
+
+2)
+打开Excel文件
+workbook = xlrd.open_workbook("员工信息.xlsx")
+
+3)
+取得工作表，在这谷雨老师取第一个工作表（一般都是取第一个）
+sheet1 = workbook.sheet_by_index(0)
+
+4)
+看一下这个工作表有多少行，多少列
+#共多少行
+nrows = sheet1.nrows
+#共多少列
+ncols = sheet1.ncols
+
+5)
+读取各单元格中的数据
+sheet1.row_values(rowx=i)
+其中这个i就是行号，从0开始，如果写0，一般就是指读取Excel的表头了
+
+到这里读取Excel文件就实现了，
+读取之后我们就可以继续使用Python来进行处理相关的工作了，
+比如进行数据的汇总、画图、数据可视化、网络的传输等。
+在以后的课程中谷雨老师会陆续分解。
+
+完整的源代码可以在Github上下载。
+https://github.com/cn09876/guyuedu
+
+                                                                                                                                                                                                      
+
