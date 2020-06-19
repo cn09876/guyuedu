@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<script>
+//新建H5 Worker
+function createWorker(f,onmsg) {
+  //根据内容创建blob
+  var blob = new Blob(['(' + f.toString() +')()']);
+  //创建临时内部URL
+  var url = window.URL.createObjectURL(blob);
+  //创建Worker
+  var worker = new Worker(url);
+  //返回Worker
+  return worker;
+}
+
+var w = createWorker(function (e){
+  setInterval(function () {
+    self.postMessage('aaaaa');
+  }, 1000)
+});
+
+//接收worker的posemessage事件
+w.onmessage = function (e) {
+  console.log(e);
+}
+
+//向Worker发消息
+w.postMessage('init');
+
+</script>
+
+</body>
+</html>

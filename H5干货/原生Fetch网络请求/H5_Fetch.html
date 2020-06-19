@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+//H5原生支持的Fetch,返回Promise格式
+fetch('/users.html')
+.then(function(r){
+  console.log(r);
+  return r.text()}
+)
+.then(function(body){
+  console.log(body);
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+div{
+    border:1px #000 solid;
+}
+</style>
+<script>
+function fun2(i)
+{
+    alert(i);
+}
+</script>
+<body>
+<div>我是Page</div>
+
+<user-score id="x1" uid='sunway' fen='100' onclick="this.fun1('miao')">
+    <div>我是默认slot</div>
+    <div slot="slot1">我是slot1</div>
+    <div slot="slot2">我是slot2</div>
+    <div>我是默认slot</div>
+</user-score>
+
+<hr>
+<a href="#" onclick="x1.setAttribute('uid','123')">XXX</a>
+
+<script>
+
+class UserScore extends HTMLElement {
+  /**
+   * 生命钩子有：
+   * connectedCallback：插入到 DOM 时，相当于vue component的created
+   * disconnectedCallback： 从DOM中移除时，相当于vue component的beforeDestroy
+   * attributeChangedCallback：属性添加、移除、更新或替换时，有点像vue component的beforeUpdate(不完全等同)
+   * adoptedCallback：被移入新的 document时
+   */
+
+    constructor() {
+        super();
+        this.attachShadow({mode: 'open'}).innerHTML =`
+<style>
+div{
+    border:1px #ff0000 solid;
+}
+</style>
+        <slot>slot1</slot>
+<div id='a1'>UID:</div>
+<slot name="slot1">slot1</slot>
+<slot name="slot2">slot2</slot>
+<hr>
+        `;
+    }
+
+    connectedCallback () {
+        console.log(this.attributes);
+        this.shadowRoot.querySelector('#a1').innerHTML="UID:"+this.getAttribute('uid');
+        //this.shadowRoot.querySelector('div').addEventListener('click', () => window.open('/user/' + this.uid));
+        setTimeout(() => {
+            let event = new CustomEvent("event1", {
+                'detail':[1,2,3,4,5]
+            });
+            console.log('raise event1...');
+            this.dispatchEvent(event);
+        }, 1000);
+    }
+    setProperty (selector, value, prop = 'innerText') {
+        this.shadowRoot.querySelector(selector)[prop] = value;
+    }
+    static get observedAttributes() {
+        return ['uid', 'bar'];
+    }
+    attributeChangedCallback(attrName, oldVal, newVal){
+        console.log(`attributeChangedCallback-change ${attrName} from ${oldVal} to ${newVal}`);
+    }
+    fun1 (x) {
+        this.shadowRoot.querySelector('#a1').innerHTML=x;
+        console.log(x);
+        let event = new CustomEvent("event1", {
+                'detail':[1,2,3,4,5]
+            });
+        console.log('raise event1...');
+        this.dispatchEvent(event);
+
+    }
+}
+
+window.customElements.define('user-score', UserScore);
+
+x1.addEventListener('event1', (e) => {
+    console.log(e);
+});
+</script>
+</body>
+
+</html>
