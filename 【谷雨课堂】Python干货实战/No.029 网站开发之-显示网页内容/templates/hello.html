@@ -1,0 +1,7 @@
+共有{{ dt.count }}条记录
+<hr>
+<div style='width:300px;background-color: #eeeeee;border:1px #ff0000 solid;margin:20px;padding:20px;'>
+{% for user in dt.rows %}
+  <li>{{ user.id }} {{ user.username }}</a></li>
+{% endfor %}
+</div>
